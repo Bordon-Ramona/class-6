@@ -1,0 +1,43 @@
+.nav ul {
+    display: flex;
+    list-style: none; 
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-around;
+
+    gap: 10px;
+}
+
+.nav ul li {
+    color: white;
+    background-color: red;
+    /* margin: 1em; */
+    font-size: 2em;
+}
+
+.img-hola {
+    width: 300px;
+    float: left;
+    margin-right: 50px;
+}
+
+
+.texto-lorem {
+    font-size: 3rem;
+}
+
+.card {
+    display: flex;
+}
+
+.texto-dos-lorem {
+    font-size: 3rem;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: .3em 1em;
+}
